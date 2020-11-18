@@ -1,0 +1,105 @@
+body {
+    background-color: #2b7a7aef;
+}
+
+a {
+    color: #039BE5;
+    text-decoration: none;
+}
+
+/*
+    header
+*/    
+.header {
+    width: 1000px;
+    margin: auto;
+}
+
+.header-row0 {
+    background-color: #f6f6f6;
+}
+
+.header-row0 a:hover {
+    text-decoration: underline;
+}
+
+.block-content {
+    width: 960px;
+    margin: 0 auto;
+}
+
+.header-row0-right-block {
+    line-height: 2.5rem;
+    float: right;
+}
+
+.header-shadow-box {
+    background-color: #9db0bb
+}
+
+.header-row1 {
+    padding: 1rem 0;
+    position: relative;
+    height: 130px;
+}
+/*
+    end header
+*/
+
+/*
+    content
+*/    
+#content {
+    width: 1000px;
+    height: 500px;
+	margin: auto;
+    padding: 0.4px;
+    background-color: #ffffff3d;
+}
+
+#header-row2 {
+    /*
+    padding-top: 1rem;
+    position: relative;
+    margin: 0 -16px;
+    */
+    width: 750px;
+	height: 50px;
+	margin: auto;
+	/* background: url(images/header/img01.jpg); */
+}
+
+#header-row2 li {
+    float: left;
+	height: 50px;
+	/* background: url(images/header/img01.jpg) no-repeat right top; */
+}
+
+.header-menu-item {
+    width: 130px;	height: 100px; /* Размеры */
+    background: #fc0; /* Цвет фона */
+    /*outline: 2px solid #000; /* Чёрная рамка */
+    border: 3px solid #fff; /* Белая рамка */
+    border-radius: 10px; /* Радиус скругления */
+}
+
+/* #header-row2 a:hover {
+	text-decoration: none;
+	background: url(images/header/img03.jpg) repeat-x right top;
+} */
+
+ol, ul {
+    list-style: none;
+}
+
+.header-menu-link {
+    padding: 0 1rem;
+    line-height: 3rem;
+    display: block;
+    color: #212121;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+/*
+    end content
+*/
